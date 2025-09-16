@@ -1,0 +1,115 @@
+.outer-green {
+  border: 8px solid green;
+  padding: 30px;
+  background: #ccffcc;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blue-box-top{
+  border: 8px solid blue;
+  padding: 27px;
+  background: #aee6f7;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.blue-box-bot {
+  border: 8px solid blue;
+  padding: 18px;
+  background: #aee6f7;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap; 
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap; 
+}
+
+.peach-box {
+  flex: 1 1 200px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: peachpuff;
+  border: 8px solid salmon;
+  min-height: 140px;
+}
+
+.red-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 90px;
+  padding:7px;
+}
+
+.pink-left,
+.pink-right {
+  flex: 1;
+  border: 8px solid red;
+  min-height: 100px;
+  background: lightpink;
+}
+
+.middle-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.big-pink {
+  flex: 2 1 200px;
+  background: lightpink;
+  border: 8px solid brown;
+  min-height: 370px;
+}
+
+.right-col {
+  flex: 2 1 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.small-pink {
+  flex: 1;
+  background: lightpink;
+  border: 8px solid brown;
+}
+
+.purple-box {
+  flex: 2 1 150px;
+  background: lavender;
+  border: 8px solid #6558C9;
+  min-height: 138px;
+}
+
+.small-peach {
+  flex: 1 1 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: peachpuff;
+  border: 8px solid salmon;
+  min-height: 138px;
+}
