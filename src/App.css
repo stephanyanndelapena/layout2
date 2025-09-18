@@ -61,7 +61,16 @@
   padding:7px;
 }
 
-.pink-left,
+.pink-left{
+  flex: 1;
+  border: 8px solid red;
+  min-height: 100px;
+  background: lightpink;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding: 18px;
+}
 .pink-right {
   flex: 1;
   border: 8px solid red;
@@ -69,7 +78,7 @@
   background: lightpink;
   text-align: center;
   color: white;
-  font-size: 45px;
+  font-size: 35px;
   padding: 18px;
 }
 
