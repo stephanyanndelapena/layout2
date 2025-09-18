@@ -26,7 +26,7 @@
   gap: 20px;
 }
 
-.row {
+.rowtop {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +34,7 @@
   flex-wrap: wrap; 
 }
 
-.row1 {
+.rowbot {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,6 +67,10 @@
   border: 8px solid red;
   min-height: 100px;
   background: lightpink;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  padding: 18px;
 }
 
 .middle-row {
@@ -112,4 +116,8 @@
   background: peachpuff;
   border: 8px solid salmon;
   min-height: 138px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding: 20px;
 }
