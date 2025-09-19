@@ -7,13 +7,7 @@ function OuterGreen() {
   return (
     <div className="outer-green">
       <BlueBoxtop />
-      <div className="middle-row">
-        <div className="big-pink"></div>
-        <div className="right-col">
-          <div className="small-pink"></div>
-          <div className="small-pink"></div>
-        </div>
-      </div>
+      <MiddleRow />
       <BlueBoxBottom />
     </div>
   )
@@ -63,6 +57,17 @@ function PinkLeft(props) {
 function PinkRight(props) {
   return (
     <div className="pink-right">{props.name}
+    </div>
+  )
+}
+function MiddleRow() {
+  return (
+    <div className="middle-row">
+      <div className="big-pink"></div>
+      <div className="right-col">
+        <div className="small-pink"></div>
+        <div className="small-pink"></div>
+      </div>
     </div>
   )
 }
